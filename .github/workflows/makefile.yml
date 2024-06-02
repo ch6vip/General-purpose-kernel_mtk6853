@@ -44,7 +44,7 @@ jobs:
     - name: 下载内核源码
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
-        git clone https://github.com/ch6vip/General-purpose-kernel_mtk6853/tree/main android-kernel
+        git clone https://github.com/ch6vip/General-purpose-kernel_mtk6853 android-kernel
         cd android-kernel
 
 
